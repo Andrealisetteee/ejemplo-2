@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+.cabecera {
+    width: 100%;
+    background-color: rgb(127, 54, 54);
+    padding: 20px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    background-color: aqua;
+}
+
+.menu {
+    background-color: chocolate;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+
+    .cabecera-item1 {
+        background-color: beige;
+    }
+}
+
+
+div.bloquegrande {
+    width: 100%;
+    min-height: 400px;
+    background-color: rgb(226, 146, 201);
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.grande-logo {
+    width: 50%;
+    min-height: 300px;
+    background-color: coral;
+}
+
+
+.contenedora {
+    width: 100%;
+    min-height: 200px;
+    background-color: aquamarine;
+
+    margin: 50px auto;
+    padding: 20px;
+
+    display: grid;
+    grid-template-columns:  repeat(3, 1fr);
+    align-items: start;
+    gap: 50px
+}
+
+.contenedora-columna {
+    min-height: 200px;
+    background-color: azure;
+}
+
+.imagen {
+    min-height: 200px;
+    background-color: darkcyan;
+}
+
+.texto {
+    min-height: 100px;
+    background-color: rgb(93, 35, 75);
+}
+
+
+
+
+
+.footer {
+    width: 100%;
+    min-height: 100px;
+    padding: 40px 20px;
+    background-color: rgb(107, 201, 201);
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 40px;
+}
+
+.redessociales {
+    width: 100%;
+    min-height: 100px;
+    background-color: blueviolet;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px
+}
+
+.red {
+    width: 50px;
+    min-height: 50px;
+    background-color: blue;
+}
+
+.footer-politica {
+    width: 100%;
+    min-height: 100px;
+    padding: 30px 20px;
+    background-color: rgb(224, 144, 165);
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-politicatextos {
+    width: 100px;
+    height: 20px;
+    background-color: blue;
+}
+
+.ultimo {
+    width: 100%;
+    min-height: 20px;
+    padding: 40px 20px;
+    background-color: rgb(29, 155, 155);
+
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.ultimocuadro {
+    width: 400px;
+    min-height: 50px;
+    background-color: blue;
+}
